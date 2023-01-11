@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
-import { FormBuilder, Validators } from "@angular/forms";
+import { Router } from "@angular/router"
 
 
 import mock from '../mock.json';
@@ -13,13 +12,28 @@ import mock from '../mock.json';
 })
 export class LoginComponent {
 
+  constructor(private router: Router) { }
+
+  loggedIn = false;
+  invalidLogin = false;
+
   email = mock.emailSuccess;
+  password = mock.passwordSuccess;
+  emailInput = "";
+  passwordInput = "";
   
-
-
-  loginForm = new FormGroup({
-    email: new FormControl('a'),
-    password: new FormControl(''),
-  });
+  login() {
+    if (this.emailInput === this.email && this.passwordInput === this.password) {
+      this.loggedIn = true;
+      this.invalidLogin = false;
+      this.router.navigate(['/home']);
+      console.log("Grande Marco só chateia");
+    }
+    else {
+      this.invalidLogin = true;
+      this.loggedIn = false;  
+      console.log("Grande Marco não chateia");    
+    }
+  }
 
 }
