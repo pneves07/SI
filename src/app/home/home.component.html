@@ -1,39 +1,103 @@
 
 
-<app-navbar></app-navbar>
 
-  <div class="container" style="padding-top: 2%;">
-    <div class="card">
-        <img class="card-img-top" src="https://www.ecoplus.at/media/4244/headerbild-wirtschaftspark-iz-noe-sued-izibizi.jpg?anchor=center&mode=crop&width=1980&height=500&rnd=132109565180000000" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title text-center">Card title</h4>
-          <p class="card-text text-center">
-            Some quick example text to build on the card title
-            and make up the bulk of the card's content.
-          </p>
-          <a href="#!" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+<section class="py-5 header text-center">
+    <div class="container py-5 text-white">
+        <header class="py-5">
+            <h1 class="display-4">{{company}}</h1>
+            <p class="font-italic mb-1">{{description}}</p>
+            <h3 *ngIf="isLoggedIn()" style="margin-top: 10%;">Olá, {{userLoggedIn}}!</h3>
+        </header>
+    </div>
+</section>
+  
+<header class="header sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+        <div class="container"><a class="navbar-brand" href="#">
+            <strong class="h6 mb-0 font-weight-bold text-uppercase">{{company}}</strong></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    
+                    <button class="btn" style="margin-left: 15%;">
+                        <i class="bi bi-basket"></i>
+                        <span class="translate-middle badge rounded-pill bg-danger">
+                        {{cart.length}}
+                        <span class="visually-hidden">cart</span>
+                        </span>
+                    </button>
 
-      <div class="card-deck">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button *ngIf="!isLoggedIn()" class="btn btn-info" style="margin-left: 10%;" (click)="login()">
+                        <span></span> Login
+                    </button>
+
+                    <button *ngIf="isLoggedIn()" class="btn btn-info" style="margin-left: 10%;" (click)="logOut()">
+                        <span></span> Log out
+                    </button>
+
+                </ul>
             </div>
         </div>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-        </div>
-      </div>
+    </nav>
+</header>
+  
 
-  </div>
+<!-- Home -->
+<div class="container-fluid">
+
+    <!-- Cards -->
+    <div class="custom-div">
+        <h1>Produtos</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="../../assets/software.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Software</h5>
+                        <p class="card-text">Software “On-premises”</p>
+                        <button class="btn btn-primary" (click)="addToCart()">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="../../assets/premium.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço premium</h5>
+                        <p class="card-text">Funcionalidades pagas</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acordion (FAQ)-->
+    <div class="custom-div bg-light">
+        <h1>FAQs</h1>
+        <ngb-accordion [closeOthers]="true">
+                <ngb-panel *ngFor="let faq of faqs; index as i;" title="{{faq.title}}" >
+                    <ng-template ngbPanelContent>
+                        {{faq.description}}
+                    </ng-template>
+                </ngb-panel>
+        </ngb-accordion>
+    </div>
+    
+
+    <div class="custom-div">
+        <h1>Contactos</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3330165674324!2d-8.196915684796437!3d41.366848979266024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24ebb9287835e1%3A0xca919ba04ec42efc!2sESTG%20-%20Escola%20Superior%20de%20Tecnologia%20e%20Gest%C3%A3o%20%7C%20Polit%C3%A9cnico%20do%20Porto!5e0!3m2!1spt-PT!2spt!4v1673726980811!5m2!1spt-PT!2spt" 
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    
+
+
+</div>
+
+
+<app-footer></app-footer>

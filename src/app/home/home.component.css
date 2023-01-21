@@ -1,0 +1,28 @@
+
+.header {
+    background-color: #00d2ff;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
+}
+
+div .custom-div {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+div .custom-div h1{
+    text-align: center;
+    padding: 2%;
+}
+
+div img {
+    width: 100%;
+}
+
+div .custom-div .card{
+    width: 25rem;
+    align-items: center;
+    text-align: center;
+}

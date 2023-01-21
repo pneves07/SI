@@ -27,12 +27,11 @@ export class LoginComponent {
       this.loggedIn = true;
       this.invalidLogin = false;
       this.router.navigate(['/home']);
-      console.log("Grande Marco só chateia");
+      localStorage.setItem('user', this.emailInput);
     }
     else {
       this.invalidLogin = true;
-      this.loggedIn = false;  
-      console.log("Grande Marco não chateia");    
+      this.loggedIn = false; 
     }
   }
 

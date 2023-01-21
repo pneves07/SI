@@ -1,0 +1,15 @@
+{
+    "company": "SPA Software S.A",
+    "description": "Software de gestão empresarial",
+    "faqs" : [
+        {
+            "title": "Qual é a duração da assinatura premium?",
+            "description": "A duração da assinatura premium é de um período de tempo de 12 meses a partir da data de ativação da assinatura. Durante esse período, os assinantes terão acesso a recursos e benefícios exclusivos que não estão disponíveis para utilizadores gratuitos. Isso inclui, mas não se limita a, conteúdo adicional, funcionalidades avançadas, suporte prioritário e descontos em compras futuras. Após o término do período de assinatura de 1 ano, a assinatura será automaticamente renovada, a menos que o utilizador opte por cancelar."
+        },
+        {
+            "title": "Como funciona o sistema de refferels?",
+            "description": "Ao recomendar o nosso produto a outra pessoa, irá receber um código para usufruir de funcionalidades pagas por tempo limitado." 
+        }
+    ]
+
+}

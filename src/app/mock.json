@@ -1,5 +1,11 @@
 {
     "emailSuccess" : "marco",
     "passwordSuccess" : "marco",
-    "emailError" : "emanuel@estg.pt"
+    "emailError" : "emanuel@estg.pt",
+    "users" : [
+        {
+        "user" : "marco",
+        "password" : "marco"
+        }
+    ]
 }
