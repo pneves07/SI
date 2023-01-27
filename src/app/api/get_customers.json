@@ -1,0 +1,1062 @@
+{
+  "data": [
+    {
+      "type": "customers",
+      "id": "1550089",
+      "attributes": {
+        "tax_registration_number": "999999990",
+        "business_name": "Consumidor Final",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "1891353" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "1828140" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "1891353" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "1552150",
+      "attributes": {
+        "tax_registration_number": "237079364",
+        "business_name": "Antas Consultores, SA",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "1894056" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "1830200" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "1894056" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "1552195",
+      "attributes": {
+        "tax_registration_number": "208650687",
+        "business_name": "Informatica Eiriz",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "1894103" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "1830245" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "1894103" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "1552207",
+      "attributes": {
+        "tax_registration_number": "211886912",
+        "business_name": "Luisa Santos Lda",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "1894115" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "1830257" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "1894115" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "1553638",
+      "attributes": {
+        "tax_registration_number": "208650687",
+        "business_name": "vitor",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "1896016" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "1831686" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "1896016" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058332",
+      "attributes": {
+        "tax_registration_number": "513165096",
+        "business_name": "HILODI - HISTORIC LODGES & DISCOVERIES S A",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526550" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333731" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526550" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058333",
+      "attributes": {
+        "tax_registration_number": "501479678",
+        "business_name": "FERREIRA E MARQUES LDA",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526551" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333732" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526551" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058334",
+      "attributes": {
+        "tax_registration_number": "502011475",
+        "business_name": "MODELO CONTINENTE HIPERMERCADOS S A",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526561" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333733" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526561" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058337",
+      "attributes": {
+        "tax_registration_number": "510149065",
+        "business_name": "SERVICEPARTNER, LDA",
+        "contact_name": null,
+        "website": null,
+        "phone_number": null,
+        "mobile_number": null,
+        "email": null,
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": null,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526566" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333736" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526566" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058338",
+      "attributes": {
+        "tax_registration_number": "231323123",
+        "business_name": "Augusto Canário",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526567" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333737" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526567" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058342",
+      "attributes": {
+        "tax_registration_number": "257009213",
+        "business_name": "Joaquim Alberto",
+        "contact_name": "Joaquim Alberto",
+        "website": "www.joaquim.com",
+        "phone_number": null,
+        "mobile_number": "910123123",
+        "email": "joaquim@alberto.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526568" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333738" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623083" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526568" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623083" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058343",
+      "attributes": {
+        "tax_registration_number": "257009213",
+        "business_name": "Joaquim Laberto",
+        "contact_name": "Joaquim Laberto",
+        "website": "www.joaquim.com",
+        "phone_number": null,
+        "mobile_number": "910123123",
+        "email": "joaquim@alberto.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526569" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333739" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623084" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526569" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623084" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058354",
+      "attributes": {
+        "tax_registration_number": "253888999",
+        "business_name": "Manel",
+        "contact_name": "Manel",
+        "website": "",
+        "phone_number": null,
+        "mobile_number": "253888999",
+        "email": "josue.natanael@hotmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526570" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333740" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623085" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526570" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623085" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058382",
+      "attributes": {
+        "tax_registration_number": "147852145",
+        "business_name": "Albertino",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526571" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333741" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526571" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058386",
+      "attributes": {
+        "tax_registration_number": "239984021",
+        "business_name": "Empresa que faz produtos",
+        "contact_name": "Empresa que faz produtos",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "moderator@moderator.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526572" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333742" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623086" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526572" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623086" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058389",
+      "attributes": {
+        "tax_registration_number": "259892521",
+        "business_name": "Empresa que faz produtos",
+        "contact_name": "Empresa que faz produtos",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "pawoapowo@gmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526573" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333743" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623087" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526573" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623087" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058393",
+      "attributes": {
+        "tax_registration_number": "568665341",
+        "business_name": "Empresa que faz produtos",
+        "contact_name": "Empresa que faz produtos",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "pawoapowo@gmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526574" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333744" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623088" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526574" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623088" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058396",
+      "attributes": {
+        "tax_registration_number": "569824982",
+        "business_name": "Empresa que faz produtos",
+        "contact_name": "Empresa que faz produtos",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "pawoapowo@gmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526575" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333745" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623089" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526575" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623089" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058400",
+      "attributes": {
+        "tax_registration_number": "534665144",
+        "business_name": "Empresa que faz produtos",
+        "contact_name": "Empresa que faz produtos",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "pawoapowo@gmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526576" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333746" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623090" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526576" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623090" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058401",
+      "attributes": {
+        "tax_registration_number": "536146730",
+        "business_name": "Empresa Teste",
+        "contact_name": "Empresa Teste",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "pawoapowo@gmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526577" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333747" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623091" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526577" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623091" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058402",
+      "attributes": {
+        "tax_registration_number": "569565367",
+        "business_name": "Empresa Teste",
+        "contact_name": "Empresa Teste",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "pawoapowo@gmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526578" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333748" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623092" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526578" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623092" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058403",
+      "attributes": {
+        "tax_registration_number": "583669450",
+        "business_name": "Empresa Y",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526579" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333749" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526579" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058419",
+      "attributes": {
+        "tax_registration_number": "563467762",
+        "business_name": "Empresa XYZ",
+        "contact_name": "Empresa XYZ",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "moderator@moderator.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526580" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333750" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623093" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526580" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623093" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058420",
+      "attributes": {
+        "tax_registration_number": "532460391",
+        "business_name": "Empresa XYZ",
+        "contact_name": "Empresa XYZ",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "moderator@moderator.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526581" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333751" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623094" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526581" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623094" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058422",
+      "attributes": {
+        "tax_registration_number": "545092744",
+        "business_name": "Empresa XYZ",
+        "contact_name": "Empresa XYZ",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "moderator@moderator.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526582" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333752" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623095" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526582" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623095" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058423",
+      "attributes": {
+        "tax_registration_number": "556244761",
+        "business_name": "Empresa XYZ",
+        "contact_name": "Empresa XYZ",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "moderator@moderator.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526583" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333753" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623096" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526583" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623096" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058424",
+      "attributes": {
+        "tax_registration_number": "582736234",
+        "business_name": "Empresa e Companhia",
+        "contact_name": "Empresa e Companhia",
+        "website": "www.website.com",
+        "phone_number": null,
+        "mobile_number": "910222222",
+        "email": "pawoapowo@gmail.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526584" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333754" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623097" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526584" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623097" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058425",
+      "attributes": {
+        "tax_registration_number": "529484790",
+        "business_name": "Augusto Canário Emp",
+        "contact_name": "",
+        "website": "",
+        "phone_number": "",
+        "mobile_number": "",
+        "email": null,
+        "observations": "",
+        "internal_observations": "",
+        "not_final_customer": false,
+        "cashed_vat": false,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": false,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526585" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333755" }
+        },
+        "email_addresses": { "data": [] },
+        "main_address": { "data": { "type": "addresses", "id": "8526585" } },
+        "main_email_address": { "data": null },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058426",
+      "attributes": {
+        "tax_registration_number": "509442013",
+        "business_name": "COMPANY",
+        "contact_name": "COMPANY",
+        "website": "",
+        "phone_number": null,
+        "mobile_number": "509442013",
+        "email": "admin@admin.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526586" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333756" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623098" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526586" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623098" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    },
+    {
+      "type": "customers",
+      "id": "6058428",
+      "attributes": {
+        "tax_registration_number": "910910910",
+        "business_name": "COMPANY TEST",
+        "contact_name": "COMPANY TEST",
+        "website": "",
+        "phone_number": null,
+        "mobile_number": "910223111",
+        "email": "moderator@moderator.com",
+        "observations": null,
+        "internal_observations": null,
+        "not_final_customer": true,
+        "cashed_vat": true,
+        "tax_country_region": "PT",
+        "country_iso_alpha_2": "PT",
+        "saft_import_id": null,
+        "is_tax_exempt": true,
+        "data": {}
+      },
+      "relationships": {
+        "addresses": { "data": [{ "type": "addresses", "id": "8526587" }] },
+        "company": { "data": { "type": "current_company", "id": "37830" } },
+        "defaults": {
+          "data": { "type": "customers_defaults", "id": "6333757" }
+        },
+        "email_addresses": {
+          "data": [{ "type": "email_addresses", "id": "623099" }]
+        },
+        "main_address": { "data": { "type": "addresses", "id": "8526587" } },
+        "main_email_address": {
+          "data": { "type": "email_addresses", "id": "623099" }
+        },
+        "tax_exemption_reason": { "data": null }
+      }
+    }
+  ]
+}

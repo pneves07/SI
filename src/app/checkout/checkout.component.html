@@ -1,0 +1,95 @@
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>Checkout</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mx-auto order-md-1">
+            <form class="needs-validation" validate="">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Primeiro nome</label>
+                        <input [(ngModel)]="dadosPessoais.pNome" type="text" class="form-control" [ngModelOptions]="{standalone: true}"  required="">
+                        <div class="invalid-feedback">O primeiro nome é obrigatório.</div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Último nome</label>
+                        <input [(ngModel)]="dadosPessoais.uNome" type="text" class="form-control" [ngModelOptions]="{standalone: true}" required="">
+                        <div class="invalid-feedback">O último nome é obrigatório.</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted"></span></label>
+                    <input [(ngModel)]="dadosPessoais.email" type="email" class="form-control" [ngModelOptions]="{standalone: true}" required="">
+                    <div class="invalid-feedback">Insira um e-mail válido.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="address">Morada</label>
+                    <input [(ngModel)]="dadosPessoais.morada" type="text" class="form-control" [ngModelOptions]="{standalone: true}" required="">
+                    <div class="invalid-feedback">Insira a sua morada</div>
+                </div>
+                <div class="mb-3">
+                    <label [(ngModel)]="dadosPessoais.morada2" for="address2" [ngModelOptions]="{standalone: true}">Morada 2 <span class="text-muted">Opcional</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="">
+                </div>
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">País</label>
+                        <select [(ngModel)]="dadosPessoais.pais" class="custom-select d-block w-100" [ngModelOptions]="{standalone: true}" required="">
+                            <option value="Portugal">Portugal</option>
+                        </select>
+                        <div class="invalid-feedback"> O país é obrigatório. </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">Distrito</label>
+                        <select [(ngModel)]="dadosPessoais.distrito" class="custom-select d-block w-100" [ngModelOptions]="{standalone: true}" required="">
+                            <option value="">Escolher...</option>
+                            <option *ngFor="let distrito of distritos">{{distrito}}</option>
+                        </select>
+                        <div class="invalid-feedback"> O distrito é obrigatório.</div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Código Postal</label>
+                        <input [(ngModel)]="dadosPessoais.cPostal" type="text" class="form-control" [ngModelOptions]="{standalone: true}" required="">
+                        <div class="invalid-feedback"> O Código Postal é obrigatório. </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+
+                <div class="alert alert-danger" role="alert" *ngIf="dadosIncompletos">
+                    Os dados estão incompletos! Atualize os dados e tente novamente.
+                </div>
+
+                <div class="text-center">
+                    <label>Gerar dados para pagamento</label>
+                    <button class="btn btn-primary col-md-4 mx-auto btn-block" (click)="generateReference()">Pagamento</button>
+                </div>
+                <hr class="mb-4">
+
+                <div class="card col-md-6 bg-light mb-3 text-center mx-auto" *ngIf="dadosGerados">
+                    <div class="card-body">
+                        <p>Entidade: {{refPayment.entity}}</p>
+                        <p>Referência: {{refPayment.ref}} </p>
+                        <p>Valor: {{refPayment.value}}</p>
+                    </div>
+                </div>
+
+                <div class="text-center" *ngIf="dadosGerados">
+                    <label>Guardar dados de pagamento</label>
+                    <button class="btn btn-success col-md-4 mx-auto btn-block" (click)="guardarRef()">Guardar</button>
+                </div>
+                <hr class="mb-4">
+
+                
+                
+                
+
+                <div class="alert alert-info" role="alert" *ngIf="novaTentativa">
+                    Os dados já foram gerados!
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+    </footer>
+</div>

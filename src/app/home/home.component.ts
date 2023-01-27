@@ -2,51 +2,75 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import strings from '../strings.json';
-import axios from 'axios';
+import { HttpClient } from '@angular/common/http';
+import getCustomers from '../api/get_customers.json';
+import getProducts from '../api/get_products.json';
 
-const apiUrl = 'https://api12.toconline.pt';
-const headers = {
-  'Authorization': 'Bearer 12-37830-1480806-3fd18385d91422547ca504f9bf10027eba084ea486e617e3fb2211e05093b0aa',
-  'Content-Type': 'application/json',
-  'OAUTH_CLIENT_ID': 'pt263831205_c7469-4d753ba12ab59a59',
-  'OAUTH_CLIENT_SECRET': '9d42c471a7d1d85f348116b23c0bcca6',
-  'OAUTH_URL': 'https://app12.toconline.pt/oauth',             
-  'API_URL': 'https://api12.toconline.pt',
-  'OAUTH_REDIRECT_URL': 'https://oauth.pstmn.io/v1/callback',
-}
+
+//import { Customer } from '../models/customer.model';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent{
+export class HomeComponent implements OnInit {
   
-  constructor(private router: Router){
-    async function getDataFromApi() {
-      try {
-        const response = await axios.get(`${apiUrl}/api/customers`, {headers});
-        return response.data;
-      } catch (error) {
-        console.error(error);
-        return error;
-      }
-    }
-    getDataFromApi().then(data => console.log(data));
+  constructor(private router: Router, private http: HttpClient){
+  }
+
+  ngOnInit(): void {
+    this.getCustomer();
   }
   
 
   company = strings.company;
   description = strings.description;
   faqs = strings.faqs;
-  cart : string[] =  [];
+  customer : object = {};
+  customerName: string = "";
+  productId : string = getProducts.data[0].id;
+  productPrice : number = getProducts.data[0].attributes.sales_price;
+
   
   userLoggedIn = localStorage.getItem("user")?.toUpperCase();
 
-  
+  getCustomer(){
+    for (let i = 0; i < getCustomers.data.length; i++){
+      if (getCustomers.data[i].id === this.userLoggedIn){
+        this.customer = getCustomers.data[i];
+        this.customerName = getCustomers.data[i].attributes.business_name;
+        //console.log("Cliente autenticado: " + JSON.stringify(this.customer));
+      }
+    }
+  }
 
-  
-  
+  /*
+  getCustomersAPI(){
+    this.http.get('https://api12.toconline.pt/api/customers', { 
+      headers: { 
+        'Access-Control-Allow-Origin': '*',
+        'Authorization': 'Bearer 12-37830-1480806-b681abcf35d3334234814d7e8e55bc2c7acecc59dc7bd6d737b368cfbd94110f',
+        'client_id': 'pt999999990_c37830-b4141235cbe6dd18',
+        'client_secret': '902deb1fa379ed63c2e7125bf52100e6',
+        'base_url_oauth': 'https://app12.toconline.pt/oauth',
+        'base_url': 'https://api12.toconline.pt',
+        'redirect_uri_oauth': 'https://oauth.pstmn.io/v1/callback'
+      }}).subscribe(data => {
+        console.log(data);
+      }
+    );
+  }
+  */
+
+  checkout(){
+    if (this.isLoggedIn()){
+      this.router.navigate(['/checkout']);
+    } else {
+      this.router.navigate(['/login']);
+    }
+  }
+
   isLoggedIn(){
     if(this.userLoggedIn == undefined){
       return false;
@@ -63,17 +87,5 @@ export class HomeComponent{
     window.location.reload();
   }
 
-  addToCart(){
-    if(!this.isLoggedIn()){
-      this.router.navigate(['/login']);
-    } else {
-      if (this.cart.includes("software")){
-        console.log("Adding software");
-      } else {
-        this.cart.push("software");
-      }
-    }
-    
-  }
 
 }

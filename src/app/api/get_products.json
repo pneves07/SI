@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "type": "products",
+            "id": "2790309",
+            "attributes": {
+                "item_code": "p01",
+                "item_description": "prod 1",
+                "sales_price": 100.0,
+                "sales_price_includes_vat": false,
+                "tax_code": "NOR",
+                "applied_tax_code": "NOR",
+                "notes": "",
+                "is_merchandise": null,
+                "location_in_warehouse": null,
+                "sales_price_2": null,
+                "sales_price_3": null,
+                "purchase_price": 0.0,
+                "ean_barcode": "",
+                "financial_cost": 0.0,
+                "transport_cost": 0.0,
+                "other_cost": 0.0,
+                "customs_cost": 0.0,
+                "estimated_total_cost": 0.0,
+                "product_inventory_type": "M",
+                "accounting_number": null,
+                "service_group": null,
+                "is_active": true,
+                "sales_price_vat_display": 123.00,
+                "sales_price_2_vat_display": null,
+                "sales_price_3_vat_display": null,
+                "applied_tax_exemption_reason_id": null
+            },
+            "relationships": {
+                "applied_tax_exemption_reason": {
+                    "data": null
+                },
+                "company": {
+                    "data": {
+                        "type": "current_company",
+                        "id": "37830"
+                    }
+                },
+                "item_families": {
+                    "data": null
+                },
+                "tax_exemption_reasons": {
+                    "data": null
+                },
+                "unit_of_measure": {
+                    "data": {
+                        "type": "units_of_measure",
+                        "id": "170099"
+                    }
+                }
+            }
+        }
+    ]
+}

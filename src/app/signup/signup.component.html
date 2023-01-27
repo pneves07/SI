@@ -23,7 +23,7 @@
                     <div class="input-group mb-3">
                       <span class="input-group-text"><i class="bi bi-person"></i></span>
                       <div class="form-floating">
-                        <input type="text" class="form-control input_user" name="email" placeholder="Email" >
+                        <input type="text" class="form-control input_user" name="name" placeholder="Name" [(ngModel)]="nameInput">
                         <label for="floatingInputGroup1">Nome</label>
                       </div>
                     </div>
@@ -60,7 +60,7 @@
                         </svg>
                       </span>
                       <div class="form-floating">
-                        <input type="password" #password class="form-control input_pass"  name="password" placeholder="Password" [(ngModel)]="passwordInput">
+                        <input type="password" #password class="form-control input_pass"  name="password" placeholder="Password" [(ngModel)]="passwordConfirmInput">
                         <label for="floatingInputGroup1">Confirmar Password</label>
                       </div>
                     </div>

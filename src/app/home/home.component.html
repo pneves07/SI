@@ -6,7 +6,7 @@
         <header class="py-5">
             <h1 class="display-4">{{company}}</h1>
             <p class="font-italic mb-1">{{description}}</p>
-            <h3 *ngIf="isLoggedIn()" style="margin-top: 10%;">Olá, {{userLoggedIn}}!</h3>
+            <h3 *ngIf="isLoggedIn()" style="margin-top: 10%;">Olá, {{customerName}}!</h3>
         </header>
     </div>
 </section>
@@ -17,18 +17,7 @@
             <strong class="h6 mb-0 font-weight-bold text-uppercase">{{company}}</strong></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                    
-                    <button class="btn" style="margin-left: 15%;">
-                        <i class="bi bi-basket"></i>
-                        <span class="translate-middle badge rounded-pill bg-danger">
-                        {{cart.length}}
-                        <span class="visually-hidden">cart</span>
-                        </span>
-                    </button>
+                <ul class="navbar-nav ml-auto">                    
 
                     <button *ngIf="!isLoggedIn()" class="btn btn-info" style="margin-left: 10%;" (click)="login()">
                         <span></span> Login
@@ -48,17 +37,36 @@
 <!-- Home -->
 <div class="container-fluid">
 
+
+    
+
     <!-- Cards -->
     <div class="custom-div">
+
         <h1>Produtos</h1>
+        <div class="card flex-row text-center"><img class="card-img-left example-card-img-responsive" style="width: 50%;" src="../../assets/software.png"/>
+            <div class="card-body my-auto">
+              <p class="card-title h1 h2-sm">Software</p>
+              <div style="margin: 10%;">
+                <p class="card-text">Nº{{productId}}</p>
+                <p class="card-text">{{productPrice}},00€</p>  
+              </div>
+              <button class="btn btn-info" (click)="checkout()">Comprar</button>
+            </div>
+        </div>
+
+
+
+        
+        <!--
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
                     <img src="../../assets/software.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Software</h5>
-                        <p class="card-text">Software “On-premises”</p>
-                        <button class="btn btn-primary" (click)="addToCart()">Comprar</button>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Software - Nº{{productId}}</h5>
+                        <p class="card-text">{{productPrice}},00€</p>
+                        <button class="btn btn-primary">Comprar</button>
                     </div>
                 </div>
             </div>
@@ -73,6 +81,8 @@
                 </div>
             </div>
         </div>
+        -->
+        
     </div>
 
     <!-- Acordion (FAQ)-->
