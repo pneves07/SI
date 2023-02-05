@@ -52,6 +52,10 @@
                         <input [(ngModel)]="dadosPessoais.cPostal" type="text" class="form-control" [ngModelOptions]="{standalone: true}" required="">
                         <div class="invalid-feedback"> O Código Postal é obrigatório. </div>
                     </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="zip">Código premium</label>
+                        <input [(ngModel)]="dadosPessoais.codPremium" type="text" class="form-control" [ngModelOptions]="{standalone: true}" required="">
+                    </div>
                 </div>
                 <hr class="mb-4">
 
@@ -90,6 +94,8 @@
             </form>
         </div>
     </div>
+
+
     <footer class="my-5 pt-5 text-muted text-center text-small">
     </footer>
 </div>

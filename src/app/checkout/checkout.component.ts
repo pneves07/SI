@@ -64,7 +64,8 @@ export class CheckoutComponent {
     morada2 : "",
     pais : "",
     distrito : "",
-    cPostal : ""
+    cPostal : "",
+    codPremium : ""
   }
 
   saveData = (function () {

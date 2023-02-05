@@ -1,4 +1,6 @@
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
 <section class="py-5 header text-center">
@@ -11,28 +13,48 @@
     </div>
 </section>
   
-<header class="header sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-        <div class="container"><a class="navbar-brand" href="#">
-            <strong class="h6 mb-0 font-weight-bold text-uppercase">{{company}}</strong></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">                    
-
+    <div class="header sticky-top">
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">{{company}}</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                  </ul>
+                    
                     <button *ngIf="!isLoggedIn()" class="btn btn-info" style="margin-left: 10%;" (click)="login()">
-                        <span></span> Login
+                        <span></span> Entrar
                     </button>
-
-                    <button *ngIf="isLoggedIn()" class="btn btn-info" style="margin-left: 10%;" (click)="logOut()">
-                        <span></span> Log out
+                    {{customerName}}
+                    <button *ngIf="isLoggedIn()" class="btn btn-danger" style="margin-left: 10%;" (click)="logOut()">
+                        <span></span> Sair
                     </button>
+                </div>
+            </div>
+        </nav>
+    
+    </div>
 
-                </ul>
+
+    <!--<button type="button" class="btn btn-info" (click)="openModal()">Abrir Modal</button>
+    <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':display}">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content mx-auto">
+                <div class="modal-body">
+                    <p>Terminar Sessão?</p>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button" class="btn btn-danger" (click)="onCloseConfirm()">Sim</button>
+                    <button type="button" class="btn btn-primary" (click)="onCloseHandled()">Não</button>
+                </div>
             </div>
         </div>
-    </nav>
-</header>
-  
+    </div>
+    -->
+
 
 <!-- Home -->
 <div class="container-fluid">
